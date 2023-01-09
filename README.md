@@ -16,3 +16,5 @@ add '-r tsconfig-paths/register' on scripts/dev
 add -D eslint prettier eslint-config-prettier
 npx eslint --init
 create .prettierrc.json
+
+"Jest"
