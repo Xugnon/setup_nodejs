@@ -1,0 +1,13 @@
+Script para setup node
+
+"Init"
+git init
+yarn init --y
+
+"Added typescript and ts-node-dev"
+add typescript, ts-node-dev -D
+tsc --init
+
+"Add path's"
+add tsconfig-paths -D
+add '-r tsconfig-paths/register' on scripts/dev
