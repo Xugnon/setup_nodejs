@@ -18,3 +18,4 @@ npx eslint --init
 create .prettierrc.json
 
 "Jest"
+add -D jest @types/jest ts-jest
